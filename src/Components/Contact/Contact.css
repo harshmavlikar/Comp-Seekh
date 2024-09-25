@@ -1,0 +1,40 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    max-width: 500px; /* Adjust as needed */
+    margin-right: 20px; /* Spacing between form and map */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .map-container {
+    flex: 1;
+    height: 500px; /* Adjust height as needed */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

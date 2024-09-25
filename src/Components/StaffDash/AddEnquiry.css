@@ -1,0 +1,41 @@
+.add-enquiry-container {
+    padding: 20px;
+}
+
+.add-enquiry-container h1 {
+    margin-bottom: 20px;
+}
+
+.add-enquiry-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-enquiry-container label {
+    margin-bottom: 10px;
+}
+
+.add-enquiry-container input,
+.add-enquiry-container textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-enquiry-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-enquiry-container button:hover {
+    background-color: #0056b3;
+}
+
+.text-danger {
+    color: red;
+}

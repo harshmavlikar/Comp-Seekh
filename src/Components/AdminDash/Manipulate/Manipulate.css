@@ -1,0 +1,22 @@
+/* Manipulate.css */
+
+.manipulate-container {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Stack items vertically */
+  gap: 20px; /* Space between grid items */
+}
+
+.grid-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h2 {
+  margin-top: 0;
+}

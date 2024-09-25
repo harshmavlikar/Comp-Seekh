@@ -1,0 +1,46 @@
+.album-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .album-form-container h2 {
+    text-align: center;
+  }
+  
+  .album-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .album-form-container form > div {
+    margin-bottom: 15px;
+  }
+  
+  .album-form-container form label {
+    margin-right: 10px;
+  }
+  
+  .album-form-container form input[type="text"],
+  .album-form-container form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .album-form-container form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .album-form-container form button:hover {
+    background-color: #218838;
+  }
+  

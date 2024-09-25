@@ -1,0 +1,155 @@
+/* Placements.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #333;
+  font-size: 2.5em; /* Increased font size for a more prominent title */
+  text-align: center; /* Center align the title */
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px; /* Increased border-radius for a softer look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for better depth */
+  margin: 0 auto;
+  max-width: 1200px; /* Limit container width for better alignment */
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between images */
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Slightly adjusted border-radius */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.show-more-button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded button corners */
+  cursor: pointer;
+  font-size: 1em; /* Adjust font size for better readability */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.show-more-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.02); /* Slight scaling effect on hover */
+}
+
+@media (max-width: 768px) {
+  .logos-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Reduced padding for smaller screens */
+  }
+
+  .image {
+    max-width: 80%; /* Further adjustment for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .show-more-button {
+    padding: 10px 20px; /* Smaller padding for very small screens */
+    font-size: 0.9em; /* Slightly smaller text */
+  }
+}
+.placements {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.placements-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.placements-image {
+  width: 150%;
+  max-width: 800px; /* Adjust based on your design */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.dropdown-container {
+  position: absolute;
+  bottom: 10%; /* Position near the bottom of the image */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#batch-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.show-more-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.show-more-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  background-color: #0056b3;
+}

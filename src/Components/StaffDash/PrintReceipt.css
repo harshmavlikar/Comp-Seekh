@@ -1,0 +1,59 @@
+.print-receipt-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .receipt {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px; /* Increase space below the header */
+  }
+  
+  .logo-large {
+    width: 300px; /* Increase logo size */
+    height: auto;
+  }
+  
+  .receipt-title {
+    text-align: center;
+    margin-top: 40px; /* Add space above the receipt title */
+    margin-bottom: 30px; /* Add space below the receipt title */
+    font-size: 28px;
+  }
+  
+  .receipt-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .receipt-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .print-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .print-button:hover {
+    background-color: #0056b3;
+  }
+  

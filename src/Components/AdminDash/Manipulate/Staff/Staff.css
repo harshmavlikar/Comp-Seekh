@@ -1,0 +1,28 @@
+.staff-crud-container {
+    padding: 20px;
+  }
+  
+  .staff-crud-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .staff-crud-container input {
+    margin: 5px;
+    display: block;
+  }
+  
+  .staff-crud-container button {
+    margin: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  

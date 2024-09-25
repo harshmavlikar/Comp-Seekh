@@ -1,0 +1,44 @@
+.language-switcher {
+    position: relative;
+    display: inline-block;
+    margin-left: auto; /* Align to the rightmost end */
+}
+
+.language-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 16px; /* Padding around the text */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.language-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#language-select {
+    position: absolute;
+    top: 100%; /* Position directly below the button */
+    right: 0; /* Align to the right end of the button */
+    background-color: white; /* White background for the dropdown */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 120px; /* Fixed width */
+    font-size: 14px; /* Font size */
+    padding: 5px; /* Padding inside the dropdown */
+    display: none; /* Hide by default */
+    z-index: 1000; /* Ensure dropdown is above other elements */
+}
+
+.language-switcher .language-button:focus + #language-select,
+.language-switcher #language-select:hover {
+    display: block; /* Show dropdown on button focus or hover */
+}
+
+#language-select option {
+    padding: 10px; /* Padding inside options */
+}

@@ -1,0 +1,165 @@
+.campus
+{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+}
+@media (max-width: 800px){
+    .gallery{
+    flex-wrap: wrap;
+    }
+    .gallery img{
+    width: 48%;
+    margin-bottom: 25px;
+    }
+    }
+    .campus {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px; /* Increase the max width */
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn.dark-btn {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.dark-btn img {
+  margin-left: 10px;
+}
+
+.campus {
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .btn.dark-btn {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.dark-btn img {
+    margin-left: 10px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    overflow-y: auto; /* Add scroll if content is too long */
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .modal-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .modal-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .modal-section img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .modal-text {
+    max-width: 600px;
+  }
+  
+  .modal-text h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .modal-text p {
+    color: #666;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  

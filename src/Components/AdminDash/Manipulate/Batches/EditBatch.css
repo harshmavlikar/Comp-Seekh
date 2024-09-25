@@ -1,0 +1,59 @@
+/* EditBatch.css */
+.edit-batch-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.edit-batch-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-actions {
+    text-align: center;
+}
+
+.form-actions button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.form-actions button:hover {
+    background-color: #0056b3;
+}
+
+.form-actions button[type="button"] {
+    background-color: #6c757d;
+}
+
+.form-actions button[type="button"]:hover {
+    background-color: #5a6268;
+}

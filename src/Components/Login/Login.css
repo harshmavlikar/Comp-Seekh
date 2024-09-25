@@ -1,0 +1,63 @@
+/* AdminLogin.css */
+
+/* Container for centering the form */
+.admin-login-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full viewport height */
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Form card styling */
+.card {
+    width: 100%;
+    max-width: 500px;          /* Maximum width for larger screens */
+    background-color: #fff;   /* White background for the card */
+    border: 1px solid #ddd;   /* Border color */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    margin: 0 auto;           /* Center the card within the container */
+}
+
+/* Form title styling */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;       /* Center align title */
+}
+
+/* Form input styling */
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.text-danger {
+    color: #dc3545;
+    text-align: center; /* Center align error message */
+}
